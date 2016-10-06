@@ -311,11 +311,11 @@
   'comments-inline':
     'patterns': [
       {
-        'begin': '/\\*'
+        'begin': '/\\*(.*)'
         'captures':
           '0':
             'name': 'punctuation.definition.comment.vala'
-        'end': '\\*/'
+        'end': '(.*)\\*/'
         'name': 'comment.block.vala'
       }
       {
